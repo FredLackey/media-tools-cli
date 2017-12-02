@@ -1,0 +1,24 @@
+{
+  "name": "media-tools-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for Media Tools project.",
+  "bin": {
+    "tags-clear": "./src/tags-clear.js",
+    "tags-set-from-file": "./src/tags-set-from-file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredLackey/media-tools-cli.git"
+  },
+  "author": "Fred Lackey <fred.lackey@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FredLackey/media-tools-cli/issues"
+  },
+  "homepage": "https://github.com/FredLackey/media-tools-cli#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2",
+    "media-tools-lib": "0.0.1"
+  }
+}
